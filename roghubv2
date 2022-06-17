@@ -1,4 +1,4 @@
-if KEY == "roghubv2" then
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Main", "Ocean")
 local Tab = Window:NewTab("Player")
@@ -31,4 +31,3 @@ local Section3 = Tab3:NewSection("Section Name")
 Section3:NewButton("SuperKnife", "When Clicked, Equip A Knife And Click E, To Disable Unequip The Knife.", function()
     print("Knife Admin Power On")
 end)
-end
