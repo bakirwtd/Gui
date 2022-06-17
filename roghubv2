@@ -1,4 +1,4 @@
-if KEY = "roghubv2" then
+if KEY == "roghubv2" then
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Main", "Ocean")
 local Tab = Window:NewTab("Player")
